@@ -1,6 +1,6 @@
 import random
 
-for r in range(1, 4):
+for r in range(1, 4 ):
     print(f"Раунд {r}")
     n = input("Вітаю у грі вгадай число введіть свій нікнейм ")
     print(f"Привіт, {n} Я загадав число від 1 до 50 вгадай його")
