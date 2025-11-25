@@ -9,7 +9,7 @@ for r in range(1, 3):
     while True:
         g = input("Введіть ваше число ")
         if not g.isdigit():
-            print("Помилка потрібно ввести саме число")
+            print("Помилка, потрібно ввести саме число")
             continue
         g = int(g)
         if g < s:
