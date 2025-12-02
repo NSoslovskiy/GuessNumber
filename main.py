@@ -15,8 +15,8 @@ for r in range(1, 4 ):
         if g < s:
             print("Більше")
             i += 1
-        if g >50:
-            print("Треба менше число!!!")
+        elif g > 50:
+            print("Треба число до 51!!!")
         elif g > s:
             print("Менше")
             i += 1
